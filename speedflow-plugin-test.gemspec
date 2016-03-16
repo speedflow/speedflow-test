@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Julien Breux']
   spec.email         = ['julien.breux@gmail.com']
 
-  spec.summary       = 'A Speedflow™ plugin to help to test flows.'
+  spec.summary       = 'A Speedflow plugin to help to test flows.'
   spec.description   = spec.summary
   spec.homepage      = 'https://github.com/speedflow/speedflow-plugin-test'
   spec.license       = 'MIT'
