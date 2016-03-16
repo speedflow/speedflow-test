@@ -6,7 +6,7 @@ describe Speedflow::Plugin::Test do
   end
 
   it 'has a missing method catcher' do
-    expect { Speedflow::Plugin::Test.foo({bar: 'baz'}) }.to(
+    expect { Speedflow::Plugin::Test.foo(bar: 'baz') }.to(
       output("Load: foo with args: {:bar=>\"baz\"}\n").to_stdout)
   end
 end
