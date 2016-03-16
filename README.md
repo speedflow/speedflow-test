@@ -1,6 +1,6 @@
 # Speedflow Plugin Test
 
-[![Build Status](https://travis-ci.org/speedflow/speedflow.svg?branch=master)](https://travis-ci.org/speedflow/speedflow)
+[![Build Status](https://travis-ci.org/speedflow/speedflow-plugin-test.svg?branch=master)](https://travis-ci.org/speedflow/speedflow-plugin-test)
 [![Gem Version](https://badge.fury.io/rb/speedflow-plugin-test.svg)](https://badge.fury.io/rb/speedflow-plugin-test)
 [![Code Climate](https://codeclimate.com/github/speedflow/speedflow-plugin-test/badges/gpa.svg)](https://codeclimate.com/github/speedflow/speedflow-plugin-test)
 [![Test Coverage](https://codeclimate.com/github/speedflow/speedflow-plugin-test/badges/coverage.svg)](https://codeclimate.com/github/speedflow/speedflow-plugin-test/coverage)
