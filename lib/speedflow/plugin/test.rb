@@ -12,12 +12,14 @@ module Speedflow
         #
         # *args - Some arguments :)
         #
-        # Returns nothing.
+        # Returns arguments.
         def method_missing(*args)
           action = args.first
           arguments = args.last
 
           puts "Load: #{action} with args: #{arguments}"
+
+          arguments
         end
       end
     end
