@@ -10,9 +10,9 @@ module Speedflow
         #
         # Method used to catch others methods to test.
         #
-        # *args - Some arguments :)
+        # args - Some arguments :)
         #
-        # Returns arguments.
+        # Returns Hash of arguments.
         def method_missing(*args)
           action = args.first
           arguments = args.last
