@@ -17,7 +17,7 @@ module Speedflow
           action = args.first
           arguments = args.last
 
-          if action.to_s == 'no_action'
+          if action.to_s == 'action_no_method'
             raise NoMethodError
           end
 

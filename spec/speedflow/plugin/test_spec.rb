@@ -10,7 +10,7 @@ describe Speedflow::Plugin::Test do
       .to output("Load: foo with args: {:bar=>\"baz\"}\n").to_stdout
     expect(Speedflow::Plugin::Test.foo(bar: 'baz'))
       .to include(bar: 'baz')
-    expect { Speedflow::Plugin::Test.no_action(bar: 'baz') }
+    expect { Speedflow::Plugin::Test.action_no_method(bar: 'baz') }
       .to raise_error(NoMethodError)
   end
 end
