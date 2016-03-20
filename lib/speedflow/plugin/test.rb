@@ -17,6 +17,10 @@ module Speedflow
           action = args.first
           arguments = args.last
 
+          if action.to_s == 'no_action'
+            raise NoMethodError
+          end
+
           puts "Load: #{action} with args: #{arguments}"
 
           arguments
