@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    speedflow-plugin-test (0.1.11)
+    speedflow-plugin-test (0.1.12)
 
 GEM
   remote: https://rubygems.org/
