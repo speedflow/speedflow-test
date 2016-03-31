@@ -6,7 +6,7 @@ module Speedflow
     # Speedflow test plugin
     module Test
       class << self
-        # Public: Method missign
+        # Public: Method missing
         #
         # Method used to catch others methods to test.
         #
