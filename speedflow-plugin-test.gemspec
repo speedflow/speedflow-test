@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = Dir[
-    'LICENSE', 'README.md', 'version', 'lib/**/*', 'bin/**/*', 'spec/**/*'
+    'LICENSE', 'README.md', 'lib/**/*', 'bin/**/*', 'spec/**/*'
   ]
   spec.bindir        = 'bin'
   spec.require_paths = ['lib']
