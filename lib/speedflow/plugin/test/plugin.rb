@@ -12,6 +12,7 @@ module Speedflow
         # Public: Constructor
         #
         # config - Speedflow::Plugin::Configuration object.
+        # prompt - Speedflow::Plugin::Prompt object.
         #
         # Examples
         #
