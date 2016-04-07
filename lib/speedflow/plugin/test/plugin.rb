@@ -25,19 +25,11 @@ module Speedflow
           @prompt = prompt
         end
 
-        # Public: Method missing
-        #
-        # Method used to catch others methods to test.
-        #
-        # args - Some arguments :)
+        # Public: Method to test
         #
         # Returns Hash of arguments.
-        def method_missing(*args)
-          action = args.first
-
-          raise NoMethodError if action.to_s == 'action_no_method'
-
-          @prompt.warn " - Pong: #{action}"
+        def test
+          @prompt.warn ' - Pong: test'
           @prompt.warn "   Config: #{@config.all_config}"
           @prompt.warn "   Input: #{@config.all_input}"
 
