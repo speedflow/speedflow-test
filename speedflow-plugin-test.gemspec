@@ -22,9 +22,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.3'
 
-  # Core dependencies
-  spec.add_dependency 'speedflow', '~> 0.3'
-
   # Development dependencies
   spec.add_development_dependency 'bundler', '~> 1.11'
   spec.add_development_dependency 'rake', '~> 11.1'
