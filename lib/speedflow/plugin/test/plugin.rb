@@ -25,10 +25,10 @@ module Speedflow
           @prompt = prompt
         end
 
-        # Public: Method to test
+        # Public: Action to test
         #
         # Returns Hash of arguments.
-        def test
+        def action_test
           @prompt.warn ' - Pong: test'
           @prompt.warn "   Config: #{@config.all_config}"
           @prompt.warn "   Input: #{@config.all_input}"
